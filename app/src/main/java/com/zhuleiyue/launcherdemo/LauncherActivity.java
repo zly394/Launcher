@@ -81,6 +81,7 @@ public class LauncherActivity extends BaseActivity {
         }
     }
 
+    // 退出桌面
     private void exit() {
         MyApplication.getInstance().unregisterHomeKeyReceiver();
         startActivity(new Intent(this, MainActivity.class));
